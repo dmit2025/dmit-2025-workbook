@@ -1,0 +1,5 @@
+Options +Indexes
+AuthName "Please login to continue."
+AuthType Basic
+AuthUserFile /home/vwatson/data/.htpasswd
+Require valid-user
