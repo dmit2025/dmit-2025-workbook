@@ -25,7 +25,7 @@ Make sure that the `.vscode` folder is _immediately inside of the root project f
     "protocol": "ftp",
     // This username and password is the same one you use for FileZilla (as it is trying to push up your PHP files via SFTP).
     "username": "vwatson",
-    // You may or you may not include your password in your workbook. If you choose not to, you will be prompted to enter it upon saving.
+    // You may or you may not include your password in your workbook. If you choose not to, you will be prompted to enter it in the VS Code Command Palette upon saving.
     "password": "supersecretpassphrase",
     "remotePath": "/public_html/dmit2025/workbook-key/",    
     "uploadOnSave": true,
