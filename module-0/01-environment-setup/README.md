@@ -16,8 +16,6 @@ But before we get there, let's go over all of the tools and terminology we'll be
 
 3. [Securing Your Working Directory](#securing-your-working-directory)
 
-4. [Installing the PHP Engine](#installing-the-php-engine-and-maria-db)
-
 ---
 
 ## The LAMP Stack & Related Tools
@@ -65,11 +63,11 @@ Now, let's go through the programming languages, software, and tools we'll be us
 - Many hosting environments (including our own) now use MariaDB instead of MySQL.
 
 
-For this course, we will technically be using **MariaDB** (as it is open source), not MySQL. 
+For this course, we will technically be using **MariaDB** (as it is open source), not MySQL.
 
 ### 🧮 phpMyAdmin
 - A **web-based interface** for managing MySQL/MariaDB databases.
-- Lets you:
+- phpMyAdmin lets us:
   - Create tables and databases
   - Run SQL queries
   - Import/export data
@@ -151,7 +149,7 @@ We can't put it inside of `public_html` because we never want someone to be able
 
 ## Securing Your Working Directory
 
-1. Connect to the student server through an FTP client, such as FileZilla. 
+1. Connect to the student server through an FTP client (such as FileZilla, Transmit, WinSCP, etc.). 
 
 2. Inside of `public_html`, create a new directory called `dmit2025`. This is where you will be uploading all of your work this semester.
 
