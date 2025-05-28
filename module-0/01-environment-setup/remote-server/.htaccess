@@ -1,5 +1,0 @@
-Options +Indexes
-AuthName "Please login to continue."
-AuthType Basic
-AuthUserFile /home/username/data/.htpasswd
-Require valid-user
