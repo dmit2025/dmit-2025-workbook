@@ -2,6 +2,8 @@
 
 PHP is a server-side language. This means that any PHP script needs to be run by an interpreter (the PHP 'engine') installed on a server before a browser can render the output for the user. Because of this, we need to set up our development environment before we can start learning the language. 
 
+In this course, we will use Docker Desktop, which will allow us to run our development environment locally (i.e. on our own computers). It works by letting us build and run a container that has everything needed to run our applications, including the operating system, software, libraries, code, and configuration settings that would normally be on a remote server.
+
 This guide will help you set up your development environment for DMIT2025 - PHP/MySQL. 
 
 
@@ -106,13 +108,15 @@ This guide will help you set up your development environment for DMIT2025 - PHP/
   docker compose build
 ```
 
-4. Wait for the build to complete. Depending upon your computer's specifications and network speeds, this can take several seconds to a few minutes. 
+4. Wait for the build to complete. During the build process, Docker will need to download an image and install it. Depending upon your computer's specifications and network speeds, this can take several seconds to a few minutes. 
 
 5. After the build is finished, you will need to start your environment with the following command:
 
 ```shell
-  docker compose up
+  docker compose up -d
 ```
+
+  Note: The `-d` flag lets containers run in the background; this will allow your prompt to return immediately.
 
 6. Once the container is 'up', you will be able to access your local server in your browser using the following URI: 
 

@@ -1,17 +1,17 @@
-version: "3"
 services:
   web:
-    image: php:8.2-apache
+    build: .
+    image: php:8.4-apache
     ports:
       - "8080:80"
       # If working with SSL, we can also route port 443.
       # 443:443
     volumes:
-      - .:/var/www/html
+      - ../:/var/www/html
     environment:
       - PHP_DISPLAY_ERRORS=1
       - PHP_ERROR_REPORTING=E_ALL
-    command: bash -c "docker-php-ext-install pdo pdo_mysql && apache2-foreground"
+    command: apache2-foreground
 
   mysql:
     # We don't have to point to a specific image here; instead, we could use: mysql:latest
