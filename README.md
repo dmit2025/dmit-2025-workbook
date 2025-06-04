@@ -2,8 +2,6 @@
 
 ## Introduction to Your Workbook
 
-## Introduction to Your Workbook
-
 This workbook is designed to work with specific extensions for Visual Studio Code and software for your computer. Before beginning, download and install everything by following the links below.
 
 
